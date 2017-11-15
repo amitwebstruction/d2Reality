@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>D2Reality</title>
-        <!--<title><?php //echo $page_title;             ?></title>-->
+        <!--<title><?php //echo $page_title;                ?></title>-->
         <meta name="description" content="" />
         <meta name="keywords" content=""/>
         <meta name="author" content=""/>
@@ -20,24 +20,24 @@
             <header id="header" class="site-header">
                 <div class="container">
                     <div class="site-brand">
-                        <a href="index.html"><img src="<?php echo getImageUrl(); ?>assets/logo.png" alt=""></a>
+                        <a href="<?= base_url(); ?>"><img src="<?php echo getImageUrl(); ?>assets/logo.png" alt=""></a>
                     </div><!-- .site-brand -->
                     <div class="right-header">					
                         <nav class="main-menu">
                             <button class="c-hamburger c-hamburger--htx"><span></span></button>
                             <ul>
-                                <li><a href="#">Home<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
-                                <li><a href="#">Launch Project</a></li>
-                                <li><a href="#">All Project<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                <li><a href="<?= base_url(); ?>">Home<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                                <li><a href="<?= base_url(); ?>">Launch Project</a></li>
+                                <li><a href="<?= base_url(); ?>">All Project<i class="fa fa-caret-down" aria-hidden="true"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Technology Project</a></li>
-                                        <li><a href="#">Lifestyle Project</a></li>
-                                        <li><a href="#">Arts &amp; Music Project</a></li>
-                                        <li><a href="#">Publications Project</a></li>
-                                        <li><a href="#">Games Project</a></li>
-                                        <li><a href="#">Events Project</a></li>
-                                        <li><a href="#">Food Project</a></li>
-                                        <li><a href="#">Documentary Project</a></li>
+                                        <li><a href="<?= base_url(); ?>">Technology Project</a></li>
+                                        <li><a href="<?= base_url(); ?>">Lifestyle Project</a></li>
+                                        <li><a href="<?= base_url(); ?>">Arts &amp; Music Project</a></li>
+                                        <li><a href="<?= base_url(); ?>">Publications Project</a></li>
+                                        <li><a href="<?= base_url(); ?>">Games Project</a></li>
+                                        <li><a href="<?= base_url(); ?>">Events Project</a></li>
+                                        <li><a href="<?= base_url(); ?>">Food Project</a></li>
+                                        <li><a href="<?= base_url(); ?>">Documentary Project</a></li>
                                     </ul>
                                 </li>
                                 <!-- <li><a href="#">Contact</a></li> -->
