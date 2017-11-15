@@ -1,660 +1,501 @@
 <!--main container -->
-    <!--slider banner-->
-    <div class="slider-banner type2">
-        <div class="sliders-wrap columns1">
-            <div class="item position-relative">
-                <img src="<?php echo getImageUrl('sliders/02/slider2.jpg')?>" alt="">
-                <div class="container text-center">
-                    <div class="content-block position-absolute position-center slide1">
-                        <span class="slider-logo--top"><img src="<?php echo getImageUrl('sliders/02/logo-slider2.png')?>" alt=""></span>
-                        <h1 class="font-GreatVibes font80 color-white">Welcome Echion Restaurant</h1>
-                        <span class="slider-logo--bottom"><img src="<?php echo getImageUrl('sliders/02/text-slider2.png')?>" alt=""></span>
-                        <div class="divider divider--sm"></div>
-                        <a href="product-fullwidth.html" class="btn btn2 btn--lg bg-theme color-white text-uppercase text-bold font-15 font-display">DISCOVER</a>
-                    </div>
-                </div>
-            </div>
-            <div class="item position-relative">
-                <img src="<?php echo getImageUrl('sliders/02/slider1.jpg')?>" alt="">
-                <div class="container text-center">
-                    <div class="content-block position-absolute position-center slide2">
-                        <span class="slider-logo--top"><img src="<?php echo getImageUrl('sliders/02/logo-slider1.png')?>" alt=""></span>
-                        <h1 class="font-GreatVibes font80 color-white">The Place Perfect To Eat</h1>
-                        <span class="slider-logo--bottom"><img src="<?php echo getImageUrl('sliders/02/text-slider1.png')?>" alt=""></span>
-                        <div class="divider divider--sm"></div>
-                        <a href="product-sidebar.html" class="btn btn2 btn--lg bg-theme color-white text-uppercase text-bold font-15 font-display">DISCOVER</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ slider banner-->
-    <div class="divider divider--lg"></div>
-    <!-- about -->
-    <div class="about type1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-1 col-md-5 col-sm-12 col-xs-12 about-left">
-                    <div class="border-img effect-2">
-                        <img src="<?php echo getImageUrl('about-restaurant_03.jpg')?>" alt="">
-                    </div>
-                </div>
-                <div class="divider divider--md visible-sm visible-xs"></div>
-                <div class="col-md-6 col-sm-12 col-xs-12 about-fight">
-                    <div class="about-content text-center">
-                        <div class="title type2 text-center while">
-                            <h1 class="font-GreatVibes font36 color-theme no-margin">Restaurant</h1>
-                            <h2 class="font33 text-uppercase">About Echion</h2>
-                            <span class="icon-title text-center"></span>
-                        </div>
-                        <div class="divider divider--xs"></div>
-                        <p>
-                            Lorem ipsum dolor amet, consectet adipiscing ultricies convallis. Donec sollicitudin amet neque lacinia, suscipit fringilla. Quinibus rhoncus mattis neque justo ultricies amet sagittis cursus mauris varius diam
-                        </p>
-                        <div class="divider divider--xs"></div>
-                        <a href="#" class="link-style color-theme font17 font-display text-bold text-uppercase">READ MORE</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ about-->
-    <div class="divider divider--lg"></div>
-    <!-- massage chefs -->
-    <div class="massage-chefs bg-pink-while">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-1 col-md-7 col-sm-12 col-xs-12">
-                    <div class="divider divider--lg"></div>
-                    <div class="content-chefs text-center">
-                        <div class="title type2 text-center while">
-                            <h1 class="font-GreatVibes font36 color-theme no-margin">Massage</h1>
-                            <h2 class="font33 text-uppercase">our chefs</h2>
-                        </div>
-                        <div class="divider divider--xs"></div>
-                        <p>
-                            Vestibulum ultricies dolor sed convallis. Donec sollicitudin enim sit amet neque lacinia, suscipit nunc fringilla. Quinibus at eros eget rhoncus mattis neque justo.
-                        </p>
-                        <div class="divider divider--xs"></div>
-                        <a href="#" class="link-style color-theme font17 font-display text-bold text-uppercase">MEET OUR CHEFS</a>
-                    </div>
-                    <div class="divider divider--lg"></div>
-                </div>
-                <div class="col-md-4 hidden-sm hidden-xs">
-                    <div class="img-chefs">
-                        <img src="<?php echo getImageUrl('our-right.png')?>" class="img-responsive" alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /massage chefs -->
-    <!-- banner menu -->
-    <div class="banner-menu bg-menu">
-        <div class="divider divider--lg visible-md visible-sm visible-xs"></div>
-        <div class="container">
-            <div class="banner-menu-content text-center">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="item-banner-menu">
-                            <div class="banner-menu__title">
-                                <h2 class="font36 font-GreatVibes">Find Our</h2>
-                                <p class="font36 text-uppercase color-theme text-bold">For Lunch</p>
-                            </div>
-                            <div class="banner-menu__list text-center position-relative">
-                                <h3 class="menu--title text-uppercase text-bold color-white font24 position-absolute">Menu</h3>
-                                <div class="menu--box">
-                                    <ul class="list-unstyled">
-                                        <li class="item-menu"><a href="#">Appetizers</a></li>
-                                        <li class="item-menu"><a href="#">Pastas</a></li>
-                                        <li class="item-menu"><a href="#">Soups</a></li>
-                                        <li class="item-menu"><a href="#">Salads</a></li>
-                                        <li class="item-menu"><a href="#">Cakes</a></li>
-                                        <li class="item-menu"><a href="#">Sandwiches</a></li>
-                                        <li class="item-menu"><a href="#">And more...</a></li>
-                                    </ul>
-                                    <a href="#" class="links-discover font17 text-bold color-theme text-uppercase font-display">DISCOVER NOW</a>
+<main id="main" class="site-main">
+    <!-- Modal SignIn -->
+    <div class="modal fade " id="userlogin" role="dialog" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog modal-md">
+            <!-- Modal content-->
+            <div class="modal-content modal-new-2">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <div class="sign-in">
+                                <h2>Sign In</h2>
+                                <form class="form-signin">
+                                    <input type="text" class="form-control" placeholder="Email" >
+                                    <input type="password" class="form-control" placeholder="Password">
+                                    <button class="btn  btn-new pull-left" type="submit">Login</button>
+                                    <label class="checkbox pull-left">
+                                        <input type="checkbox" value="remember-me">Remember</label>
+                                    <a href="#" data-toggle="modal" id="forget-btn" data-target="#forget_pass" class="pull-right need-help">Forgot Password? </a>
+                                    <span class="clearfix"></span>
+                                </form>
+                                <div class="login-option">
+                                    <div class="row">
+                                        <div class="col-md-6 login-with">
+                                            Or login with
+                                        </div>    
+                                        <div class="col-md-6">
+                                            <a href="" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href="" class="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </div>    
+                                    </div>
                                 </div>
+                                <a href="#" id="create-account" data-toggle="modal" data-target="#usersignup" class="text-center new-account">Create an account </a>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </div>
+    <!-- Modal SignIn -->
+
+
+    <!-- Modal Signup -->
+    <div class="modal fade " id="usersignup" role="dialog" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog modal-md">
+            <!-- Modal content-->
+            <div class="modal-content modal-new-2">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <div class="sign-up">
+                                <h2>Sign Up</h2>
+
+                                <form class="form-signup">
+                                    <p>Enter your personal details below:</p>
+                                    <input type="text" class="form-control" placeholder="Full Name" >
+                                    <input type="text" class="form-control" placeholder="Email" >
+                                    <input type="text" class="form-control" placeholder="Number" >
+                                    <input type="password" class="form-control" placeholder="Password" >
+                                    <input type="password" class="form-control" placeholder="Re-type Your Password" >
+
+                                    <button id="btn-submit-s" class="btn  btn-new pull-right" type="submit">Submit</button>
+                                    <button class="btn  btn-back pull-left" type="submit">Back</button>
+                                    <span class="clearfix"></span>
+                                </form>
                             </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal SignUp -->
+
+    <!-- Modal Forgot  -->
+    <div class="modal fade " id="forget_pass" role="dialog" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog modal-md">
+            <!-- Modal content-->
+            <div class="modal-content modal-new-2">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <div class="forgot-password">
+                                <h2>Forgot Password ?</h2>
+                                <form class="form-signup">
+                                    <p>Enter your e-mail address below to reset your password.</p>
+                                    <input type="text" class="form-control" placeholder="Email" >
+
+
+                                    <button id="btn-submit-f" class="btn  btn-new pull-right" type="submit">Submit</button>
+                                    <button class="btn  btn-back pull-left" type="submit">Back</button>
+                                    <span class="clearfix"></span>
+                                </form>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal forget -->
+
+
+    <div class="sideshow">
+
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <!-- Item 1 -->
+                <div class="carousel-item active slide1">
+                    <img src="<?php echo getImageUrl(); ?>slide/slide1.jpg" alt="slide 1">
+
+                    <div class="carousel-caption d-md-block">
+                        <h1 class="wow fadeInUp">Bring new ideas to life, anywhere.</h1>
+                        <div class="sideshow-description wow fadeInUp">Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu teus.</div>
+
+                        <div class="button wow fadeInUp" >
+                            <a href="#" class="btn-secondary">See Campaign</a>
                         </div>
                     </div>
-                    <div class="divider divider--md visible-xs"></div>
-                    <div class="col-sm-4">
-                        <div class="item-banner-menu">
-                            <div class="banner-menu__title">
-                                <h2 class="font36 font-GreatVibes">Specials</h2>
-                                <p class="font36 text-uppercase color-theme text-bold">drinks</p>
-                            </div>
-                            <div class="banner-menu__list text-center">
-                                <h3 class="menu--title text-uppercase text-bold color-white font24 position-absolute">Menu</h3>
-                                <div class="menu--box">
-                                    <ul class="list-unstyled">
-                                        <li class="item-menu"><a href="#">Soft Drink</a></li>
-                                        <li class="item-menu"><a href="#">Beer</a></li>
-                                        <li class="item-menu"><a href="#">Coffee</a></li>
-                                        <li class="item-menu"><a href="#">MilkTea</a></li>
-                                        <li class="item-menu"><a href="#">Juice</a></li>
-                                        <li class="item-menu"><a href="#">Smoothie</a></li>
-                                        <li class="item-menu"><a href="#">And more...</a></li>
-                                    </ul>
-                                    <a href="#" class="links-discover font17 text-bold color-theme text-uppercase font-display">DISCOVER NOW</a>
-                                </div>
-                            </div>
+                </div> 
+                <!-- Item 2 -->
+                <div class="carousel-item slide2">
+                    <img src="<?php echo getImageUrl(); ?>slide/slide2.jpg" alt="slide 2">
+
+                    <div class="carousel-caption d-md-block">
+                        <h1 class="wow fadeInUp">Translate your dream to reality.</h1>
+                        <div class="sideshow-description wow fadeInUp">Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu teus.</div>
+
+                        <div class="button wow fadeInUp" >
+                            <a href="#" class="btn-secondary">See Campaign</a>
                         </div>
                     </div>
-                    <div class="divider divider--md visible-xs"></div>
-                    <div class="col-sm-4">
-                        <div class="item-banner-menu">
-                            <div class="banner-menu__title">
-                                <h2 class="font36 font-GreatVibes">The Best</h2>
-                                <p class="font36 text-uppercase color-theme text-bold">For dinner</p>
-                            </div>
-                            <div class="banner-menu__list text-center">
-                                <h3 class="menu--title text-uppercase text-bold color-white font24 position-absolute">Menu</h3>
-                                <div class="menu--box">
-                                    <ul class="list-unstyled">
-                                        <li class="item-menu"><a href="#">Rice & Flesh</a></li>
-                                        <li class="item-menu"><a href="#">Seafood</a></li>
-                                        <li class="item-menu"><a href="#">Bruschetta</a></li>
-                                        <li class="item-menu"><a href="#">Appetizers</a></li>
-                                        <li class="item-menu"><a href="#">Veal & Beef</a></li>
-                                        <li class="item-menu"><a href="#">Sides</a></li>
-                                        <li class="item-menu"><a href="#">And more...</a></li>
-                                    </ul>
-                                    <a href="#" class="links-discover font17 text-bold color-theme text-uppercase font-display">DISCOVER NOW</a>
-                                </div>
-                            </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="carousel-item slide3">
+                    <img src="<?php echo getImageUrl(); ?>slide/slide3.jpg" alt="slide 3">
+
+                    <div class="carousel-caption d-md-block">
+                        <h1 class="wow fadeInUp">Bring new ideas to life, anywhere</h1>
+                        <div class="sideshow-description wow fadeInUp">Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu teus.</div>
+
+                        <div class="button wow fadeInUp" >
+                            <a href="#" class="btn-secondary">See Campaign</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- End Wrapper for slides-->
+            <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+                <i class="fa fa-angle-left"></i><span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+                <i class="fa fa-angle-right"></i><span class="sr-only">Next</span>
+            </a>
         </div>
-        <div class="divider divider--lg visible-md visible-sm visible-xs"></div>
-    </div>
-    <!-- /banner menu -->
-    <!-- product -->
-    <div class="chef-selection bg-chef">
-        <div class="divider divider--lg"></div>
-        <div class="divider divider--lg hidden-sm hidden-xs"></div>
+
+
+    </div><!-- .sideshow -->
+    <div class="how-it-work">
         <div class="container">
-            <div class="title type2 text-center while">
-                <h1 class="font-GreatVibes font36 color-theme no-margin">Recommended</h1>
-                <h2 class="font33 text-uppercase">CHEF SELECTION</h2>
-                <span class="icon-title text-center"></span>
-            </div>
-            <div class="divider divider--xs"></div>
-            <div class="product-grid">
-                <ul class="row">
-                    <li class="item col-lg-3 col-md-3 col-xs-12 col-sm-6">
-                        <div class="product-container">
-                            <div class="product-img position-relative">
-                                <a href="#">
-                                    <img src="<?php echo getImageUrl('product/1.jpg')?>" alt="" class="product-image img-responsive">
-                                </a>
-                                <div class="action position-absolute list-inline text-center">
-                                    <a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="#" class="quick-view"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="list-category">
-                                    <a href="#">Fresh</a>,<a href="#">Organic</a>,<a href="#">Fruit</a>
-                                </div>
-                                <div class="ratings">
-                                    <div class="rating-box">
-                                        <div class="rating" style="width:90%"></div>
-                                    </div>
-                                </div>
-                                <h2 class="product-name">
-                                    <a href="#" class="font16 text-normal">Tincidunt justo sodales</a>
-                                </h2>
-                                <div class="price">
-                                        <span class="new-price product-price">
-                                            $77.00
-                                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item col-lg-3 col-md-3 col-xs-12 col-sm-6">
-                        <div class="product-container">
-                            <div class="product-img position-relative">
-                                <a href="#">
-                                    <img src="<?php echo getImageUrl('product/2.jpg')?>" alt="" class="product-image img-responsive">
-                                </a>
-                                <div class="action position-absolute list-inline text-center">
-                                    <a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="#" class="quick-view"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="list-category">
-                                    <a href="#">Fresh</a>,<a href="#">Organic</a>,<a href="#">Fruit</a>
-                                </div>
-                                <div class="ratings">
-                                    <div class="rating-box">
-                                        <div class="rating" style="width:90%"></div>
-                                    </div>
-                                </div>
-                                <h2 class="product-name">
-                                    <a href="#" class="font16 text-normal">Suspendisse condimentum enim</a>
-                                </h2>
-                                <div class="price">
-                                        <span class="new-price product-price">
-                                            $99.00
-                                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item col-lg-3 col-md-3 col-xs-12 col-sm-6">
-                        <div class="product-container">
-                            <div class="product-img position-relative">
-                                <a href="#">
-                                    <img src="<?php echo getImageUrl('product/3.jpg')?>" alt="" class="product-image img-responsive">
-                                </a>
-                                <span class="label-sale label-item">Sale</span>
-                                <div class="action position-absolute list-inline text-center">
-                                    <a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="#" class="quick-view"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="list-category">
-                                    <a href="#">Fresh</a>,<a href="#">Organic</a>,<a href="#">Fruit</a>
-                                </div>
-                                <div class="ratings">
-                                    <div class="rating-box">
-                                        <div class="rating" style="width:90%"></div>
-                                    </div>
-                                </div>
-                                <h2 class="product-name">
-                                    <a href="#" class="font16 text-normal">Nam interdum interdum</a>
-                                </h2>
-                                <div class="price">
-                                        <span class="old-price product-price">
-                                            <del>$100.00</del>
-                                        </span>
-                                        <span class="new-price product-price">
-                                            $86.00
-                                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item col-lg-3 col-md-3 col-xs-12 col-sm-6">
-                        <div class="product-container">
-                            <div class="product-img position-relative">
-                                <a href="#">
-                                    <img src="<?php echo getImageUrl('product/4.jpg')?>" alt="" class="product-image img-responsive">
-                                </a>
-                                <span class="label-new label-item">New</span>
-                                <div class="action position-absolute list-inline text-center">
-                                    <a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="#" class="quick-view"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="list-category">
-                                    <a href="#">Fresh</a>,<a href="#">Organic</a>,<a href="#">Fruit</a>
-                                </div>
-                                <div class="ratings">
-                                    <div class="rating-box">
-                                        <div class="rating" style="width:90%"></div>
-                                    </div>
-                                </div>
-                                <h2 class="product-name">
-                                    <a href="#" class="font16 text-normal">Donec convallis aliquet</a>
-                                </h2>
-                                <div class="price">
-                                        <span class="new-price product-price">
-                                            $79.00
-                                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item col-lg-3 col-md-3 col-xs-12 col-sm-6">
-                        <div class="product-container">
-                            <div class="product-img position-relative">
-                                <a href="#">
-                                    <img src="<?php echo getImageUrl('product/5.jpg')?>" alt="" class="product-image img-responsive">
-                                </a>
-                                <div class="action position-absolute list-inline text-center">
-                                    <a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="#" class="quick-view"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="list-category">
-                                    <a href="#">Fresh</a>,<a href="#">Organic</a>,<a href="#">Fruit</a>
-                                </div>
-                                <div class="ratings">
-                                    <div class="rating-box">
-                                        <div class="rating" style="width:90%"></div>
-                                    </div>
-                                </div>
-                                <h2 class="product-name">
-                                    <a href="#" class="font16 text-normal">Tincidunt justo sodales</a>
-                                </h2>
-                                <div class="price">
-                                        <span class="new-price product-price">
-                                            $77.00
-                                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item col-lg-3 col-md-3 col-xs-12 col-sm-6">
-                        <div class="product-container">
-                            <div class="product-img position-relative">
-                                <a href="#">
-                                    <img src="<?php echo getImageUrl('product/6.jpg')?>" alt="" class="product-image img-responsive">
-                                </a>
-                                <div class="action position-absolute list-inline text-center">
-                                    <a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="#" class="quick-view"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="list-category">
-                                    <a href="#">Fresh</a>,<a href="#">Organic</a>,<a href="#">Fruit</a>
-                                </div>
-                                <div class="ratings">
-                                    <div class="rating-box">
-                                        <div class="rating" style="width:90%"></div>
-                                    </div>
-                                </div>
-                                <h2 class="product-name">
-                                    <a href="#" class="font16 text-normal">Suspendisse condimentum enim</a>
-                                </h2>
-                                <div class="price">
-                                        <span class="new-price product-price">
-                                            $99.00
-                                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item col-lg-3 col-md-3 col-xs-12 col-sm-6">
-                        <div class="product-container">
-                            <div class="product-img position-relative">
-                                <a href="#">
-                                    <img src="<?php echo getImageUrl('product/7.jpg')?>" alt="" class="product-image img-responsive">
-                                </a>
-                                <span class="label-sale label-item">Sale</span>
-                                <div class="action position-absolute list-inline text-center">
-                                    <a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="#" class="quick-view"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="list-category">
-                                    <a href="#">Fresh</a>,<a href="#">Organic</a>,<a href="#">Fruit</a>
-                                </div>
-                                <div class="ratings">
-                                    <div class="rating-box">
-                                        <div class="rating" style="width:90%"></div>
-                                    </div>
-                                </div>
-                                <h2 class="product-name">
-                                    <a href="#" class="font16 text-normal">Nam interdum interdum</a>
-                                </h2>
-                                <div class="price">
-                                        <span class="old-price product-price">
-                                            <del>$100.00</del>
-                                        </span>
-                                        <span class="new-price product-price">
-                                            $86.00
-                                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item col-lg-3 col-md-3 col-xs-12 col-sm-6">
-                        <div class="product-container">
-                            <div class="product-img position-relative">
-                                <a href="#">
-                                    <img src="<?php echo getImageUrl('product/8.jpg')?>" alt="" class="product-image img-responsive">
-                                </a>
-                                <span class="label-new label-item">New</span>
-                                <div class="action position-absolute list-inline text-center">
-                                    <a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="#" class="quick-view"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <div class="list-category">
-                                    <a href="#">Fresh</a>,<a href="#">Organic</a>,<a href="#">Fruit</a>
-                                </div>
-                                <div class="ratings">
-                                    <div class="rating-box">
-                                        <div class="rating" style="width:90%"></div>
-                                    </div>
-                                </div>
-                                <h2 class="product-name">
-                                    <a href="#" class="font16 text-normal">Donec convallis aliquet</a>
-                                </h2>
-                                <div class="price">
-                                        <span class="new-price product-price">
-                                            $79.00
-                                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="link-view text-center">
-                <a href="#" class="btn btn3 btn--lg bg-dark color-theme text-uppercase text-bold font-15 font-display">VIEW FULL MENU</a>
-            </div>
-        </div>
-        <div class="divider divider--lg"></div>
-    </div>
-    <!--/ product -->
-    <!-- book a table -->
-    <div class="book bg-book type1">
-        <div class="divider divider--lg"></div>
-        <div class="container text-center banner-content">
-            <div class="title type2 text-center dark">
-                <h1 class="font-GreatVibes font36 color-theme no-margin">Open Hours</h1>
-                <h2 class="font33 text-uppercase">BOOK A TABLE</h2>
-                <span class="icon-title text-center"></span>
-            </div>
-            <div class="divider divider--xs"></div>
-            <div class="book__info">
-                <div class="book__time time-left text-right pull-left font33 font-GreatVibes color-white">
-                    <span>Monday to Friday</span>
-                    <span>Saturday and Sunday</span>
-                </div>
-                <div class="book__time time-right text-left pull-left font33 font-GreatVibes color-white">
-                    <span>9:00 am to 11:00 pm</span>
-                    <span>9:00 am to 4:00 pm</span>
-                </div>
-                <p class="text-reservation color-white font16 text-uppercase">Reservation - 00 1 2345 678</p>
-            </div>
-            <div class="divider divider--md"></div>
-            <div class="book__table">
-                <form>
-                    <div class="row text-left">
-                        <div class="col-sm-3">
-                            <label class="color-white font16 text-normal">Select Day</label>
-                            <div class="day form-group text-medium color-theme font16">
-                                <input type="text" placeholder="24/7/2016" class="select-day" id="datepicker" />
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <label class="color-white font16 text-normal">Select Hour</label>
-                            <div class="hour book--select form-group">
-                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                                    <span class="text-medium color-theme font16">10h00 am</span>
-                                </a>
-                                <ul class="dropdown-menu text-medium font16">
-                                    <li><a href="#">6h00 am</a></li>
-                                    <li><a href="#">7h00 am</a></li>
-                                    <li><a href="#">8h00 am</a></li>
-                                    <li><a href="#">9h30 am</a></li>
-                                    <li><a href="#">10h00 am</a></li>
-                                    <li><a href="#">10h30 am</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <label class="color-white font16 text-normal">Select Persons</label>
-                            <div class="persons book--select form-group text-medium color-theme font16">
-                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                                    <span class="text-medium color-theme font16">2 Persons</span>
-                                </a>
-                                <ul class="dropdown-menu text-medium font16">
-                                    <li><a href="#">1 Persons</a></li>
-                                    <li><a href="#">2 Persons</a></li>
-                                    <li><a href="#">3 Persons</a></li>
-                                    <li><a href="#">4 Persons</a></li>
-                                    <li><a href="#">5 Persons</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <label class="color-white font16 text-normal">Select Email</label>
-                            <div class="email form-group text-medium color-theme font16">
-                                <input type="text" placeholder="Your email" class="select-email" />
-                            </div>
+            <h2 class="title wow fadeInUp" data-wow-delay=".1s">See How It Work</h2>
+            <div class="description wow fadeInUp" data-wow-delay=".1s">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="item-work wow fadeInUp" data-wow-delay=".1s">
+                            <div class="item-icon"><span>01</span><!-- <i class="fa fa-h-square" aria-hidden="true"></i> --><img src="<?php echo getImageUrl(); ?>assets/sun.png" alt=""></div>
+                        <div class="item-content">
+                            <h3 class="item-title">How it works</h3>
+                            <div class="item-desc"><p>A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es.</p></div>
                         </div>
                     </div>
-                    <div class="divider divider--sm"></div>
-                    <button class="btn btn-table btn1 btn--md bg-theme color-white text-uppercase text-bold font-15 font-display">BOOK A TABLE</button>
-                </form>
+                </div>
+                <div class="col-lg-3">
+                    <div class="item-work wow fadeInUp" data-wow-delay=".1s">
+                            <div class="item-icon"><span>02</span><!-- <i class="fa fa-play-circle-o" aria-hidden="true"></i> --><img src="<?php echo getImageUrl(); ?>assets/sun.png" alt=""></div>
+                        <div class="item-content">
+                            <h3 class="item-title">Explore</h3>
+                            <div class="item-desc"><p>A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="item-work wow fadeInUp" data-wow-delay=".1s">
+                            <div class="item-icon"><span>03</span><!-- <i class="fa fa-rocket" aria-hidden="true"></i> --><img src="<?php echo getImageUrl(); ?>assets/sun.png" alt=""></div>
+                        <div class="item-content">
+                            <h3 class="item-title">Launch</h3>
+                            <div class="item-desc"><p>Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="item-work wow fadeInUp" data-wow-delay=".1s">
+                            <div class="item-icon"><span>04</span><!-- <i class="fa fa-users" aria-hidden="true"></i> --><img src="<?php echo getImageUrl(); ?>assets/sun.png" alt=""></div>
+                        <div class="item-content">
+                            <h3 class="item-title">About Us</h3>
+                            <div class="item-desc"><p>Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.</p></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="divider divider--lg"></div>
-    </div>
-    <!--/ book a table -->
-    <div class="divider divider--lg"></div>
-    <!--newsletter-->
-    <div class="blog type2">
+    </div><!-- .how-it-work -->
+    <div class="latest campaign">
         <div class="container">
-            <div class="title type2 text-center while">
-                <h1 class="font-GreatVibes font36 color-theme no-margin">News</h1>
-                <h2 class="font33 text-uppercase">LATEST BLOG</h2>
-                <span class="icon-title text-center"></span>
+            <h2 class="title wow fadeInUp" data-wow-delay=".1s">Discover Project</h2>
+            <div class="campaign-tabs filter-theme wow fadeInUp" data-wow-delay=".1s">
+                <button class="button is-checked" data-filter=".filterpopular">Popular/Most likes</button>
+                <button class="button" data-filter=".filtersupported">Most Supported</button>
+                <button class="button" data-filter=".filternearlyfunded">Nearly Funded</button>
+                <button class="button" data-filter=".filterendingsoon">Ending Soon</button>
+                <button class="button" data-filter=".filtermostdiscussed">Most Discussed</button>
+                <button class="button" data-filter=".filterneverending">Never Ending</button>
+                <a href="#" class="btn btn-sm btn-danger">See All</a>
             </div>
-            <div class="divider divider--xs"></div>
-            <div class="blog-wrapper text-center">
+            <div class="campaign-content grid">
                 <div class="row">
-                    <div class="blog__item col-md-6 col-sm-12 col-xs-12">
-                        <div class="blog__img">
-                            <img src="<?php echo getImageUrl('blog-home/02/blog1.jpg')?>" class="img-responsive" alt="" />
-                        </div>
-                        <div class="blog__content">
-                                <span class="font13">
-                                    <span class="blog--date">20th Jul, 2016 </span>
-                                    -
-                                    <a class="blog--comment" href="#">0 Comment(s)</a>
-                                </span>
-                            <h5 class="font16 text-uppercase">LOREM IPSUM LODOR RAMET</h5>
-                            <span class="font13 text-uppercase">By: <a href="#" class="blog--author">Admin</a></span>
-                            <div class="divider divider--50"></div>
-                            <a href="#" class="read-more font-display color-theme font13 text-bold text-uppercase">read more</a>
-                        </div>
-                    </div>
-                    <div class="blog__item col-md-6 col-sm-12 col-xs-12">
-                        <div class="blog__img">
-                            <img src="<?php echo getImageUrl('blog-home/02/blog2.jpg')?>" class="img-responsive" alt="" />
-                        </div>
-                        <div class="blog__content">
-                                <span class="font13">
-                                    <span class="blog--date">20th Jul, 2016 </span>
-                                    -
-                                    <a class="blog--comment" href="#">0 Comment(s)</a>
-                                </span>
-                            <h5 class="font16 text-uppercase">eleifend lacinia condime...</h5>
-                            <span class="font13 text-uppercase">By: <a href="#" class="blog--author">Billy Robinson</a></span>
-                            <div class="divider divider--50"></div>
-                            <a href="#" class="read-more font-display color-theme font13 text-bold text-uppercase">read more</a>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-6 filternearlyfunded filterseeall">
+                        <div class="campaign-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="overlay" href="campaign_detail.html">
+                                <img src="<?php echo getImageUrl(); ?>projects/craft.png" alt="">
+                                <span class="ion-ios-search-strong"></span>
+                            </a>
+                            <div class="campaign-box">
+                                <div class="campaign-description">A watch designed to be an heirloom to be passed down to the next generation.</div>
+                                <div class="campaign-description"><strong>Category:</strong> Crafts</div>
+                                <h3><a href="campaign_detail.html">Amount $: 10,000</a></h3>
+                                <div class="campaign-author"><strong>Amount % :</strong> <span>55%</span> funded</div>
+                                <div class="process">
+                                    <div class="raised"><span style="width: 55%;"></span></div>
+                                    <div class="process-info">
+                                        <div class="process-funded"><span>55%</span>funded</div>
+                                        <div class="process-time"><span>9</span>days left</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="blog__item col-md-6 col-sm-12 col-xs-12">
-                        <div class="blog__content">
-                                <span class="font13">
-                                    <span class="blog--date">20th Jul, 2016 </span>
-                                    -
-                                    <a class="blog--comment" href="#">0 Comment(s)</a>
-                                </span>
-                            <h5 class="font16 text-uppercase">Phasellus elementu lor</h5>
-                            <span class="font13 text-uppercase">By: <a href="#" class="blog--author">Admin</a></span>
-                            <div class="divider divider--50"></div>
-                            <a href="#" class="read-more font-display color-theme font13 text-bold text-uppercase">read more</a>
-                        </div>
-                        <div class="blog__img">
-                            <img src="<?php echo getImageUrl('blog-home/02/blog3.jpg')?>" class="img-responsive" alt="" />
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-6 filterpopular filternearlyfunded filterseeall">
+                        <div class="campaign-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="overlay" href="campaign_detail.html">
+                                <img src="<?php echo getImageUrl(); ?>projects/games.png" alt="">
+                                <span class="ion-ios-search-strong"></span>
+                            </a>
+                            <div class="campaign-box">
+                                <div class="campaign-description">A watch designed to be an heirloom to be passed down to the next generation.</div>
+                                <div class="campaign-description"><strong>Category:</strong> Games</div>
+                                <h3><a href="campaign_detail.html">Amount $: 10,000</a></h3>
+                                <div class="campaign-author"><strong>Amount % :</strong> <span>35%</span> funded</div>
+                                <div class="process">
+                                    <div class="raised"><span style="width: 35%;"></span></div>
+                                    <div class="process-info">
+                                        <div class="process-funded"><span>35%</span>funded</div>
+                                        <div class="process-time"><span>9</span>days left</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="blog__item col-md-6 col-sm-12 col-xs-12">
-                        <div class="blog__content">
-                                <span class="font13">
-                                    <span class="blog--date">20th Jul, 2016 </span>
-                                    -
-                                    <a class="blog--comment" href="#">0 Comment(s)</a>
-                                </span>
-                            <h5 class="font16 text-uppercase">ultrices posuere cubilia...</h5>
-                            <span class="font13 text-uppercase">By: <a href="#" class="blog--author">Admin</a></span>
-                            <div class="divider divider--50"></div>
-                            <a href="#" class="read-more font-display color-theme font13 text-bold text-uppercase">read more</a>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-6 filtersupported filterseeall">
+                        <div class="campaign-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="overlay" href="campaign_detail.html">
+                                <img src="<?php echo getImageUrl(); ?>projects/techno.png" alt="">
+                                <span class="ion-ios-search-strong"></span>
+                            </a>
+                            <div class="campaign-box">
+                                <div class="campaign-description">A watch designed to be an heirloom to be passed down to the next generation.</div>
+                                <div class="campaign-description"><strong>Category:</strong>  Technology</div>
+                                <h3><a href="campaign_detail.html">Amount $: 10,000</a></h3>
+                                <div class="campaign-author"><strong>Amount % :</strong> <span>60%</span> funded</div>
+                                <div class="process">
+                                    <div class="raised"><span style="width: 60%;"></span></div>
+                                    <div class="process-info">
+                                        <div class="process-funded"><span>60%</span>funded</div>
+                                        <div class="process-time"><span>9</span>days left</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="blog__img">
-                            <img src="<?php echo getImageUrl('blog-home/02/blog4.jpg')?>" class="img-responsive" alt="" />
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-6 filterpopular filterendingsoon filterseeall">
+                        <div class="campaign-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="overlay" href="campaign_detail.html">
+                                <img src="<?php echo getImageUrl(); ?>projects/lifestyle.png" alt="">
+                                <span class="ion-ios-search-strong"></span>
+                            </a>
+                            <div class="campaign-box">
+                                <div class="campaign-description">A watch designed to be an heirloom to be passed down to the next generation.</div>
+                                <div class="campaign-description"><strong>Category:</strong>  Lifestyle</div>
+                                <h3><a href="campaign_detail.html">Amount $: 10,000</a></h3>
+                                <div class="campaign-author"><strong>Amount % :</strong> <span>70%</span> funded</div>
+                                <div class="process">
+                                    <div class="raised"><span style="width: 70%;"></span></div>
+                                    <div class="process-info">
+                                        <div class="process-funded"><span>70%</span>funded</div>
+                                        <div class="process-time"><span>9</span>days left</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-6 filterpopular filtermostdiscussed filterseeall">
+                        <div class="campaign-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="overlay" href="campaign_detail.html">
+                                <img src="<?php echo getImageUrl(); ?>projects/food.png" alt="">
+                                <span class="ion-ios-search-strong"></span>
+                            </a>
+                            <div class="campaign-box">
+                                <div class="campaign-description">A watch designed to be an heirloom to be passed down to the next generation.</div>
+                                <div class="campaign-description"><strong>Category:</strong>  Foods</div>
+                                <h3><a href="campaign_detail.html">Amount $: 10,000</a></h3>
+                                <div class="campaign-author"><strong>Amount % :</strong> <span>80%</span> funded</div>
+                                <div class="process">
+                                    <div class="raised"><span style="width: 80%;"></span></div>
+                                    <div class="process-info">
+                                        <div class="process-funded"><span>80%</span>funded</div>
+                                        <div class="process-time"><span>9</span>days left</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-6 filterpopular filterneverending filterseeall">
+                        <div class="campaign-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="overlay" href="campaign_detail.html">
+                                <img src="<?php echo getImageUrl(); ?>projects/publication.png" alt="">
+                                <span class="ion-ios-search-strong"></span>
+                            </a>
+                            <div class="campaign-box">
+                                <div class="campaign-description">A watch designed to be an heirloom to be passed down to the next generation.</div>
+                                <div class="campaign-description"><strong>Category:</strong>  Publications</div>
+                                <h3><a href="campaign_detail.html">Amount $: 10,000</a></h3>
+                                <div class="campaign-author"><strong>Amount % :</strong> <span>26%</span> funded</div>
+                                <div class="process">
+                                    <div class="raised"><span style="width: 26%;"></span></div>
+                                    <div class="process-info">
+                                        <div class="process-funded"><span>26%</span>funded</div>
+                                        <div class="process-time"><span>9</span>days left</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="latest-button"><a href="#" class="btn-primary">View all Campaigns</a></div>
         </div>
-    </div>
-    <!--/ newsletter-->
-    <div class="divider divider--lg"></div>
-    <!--Testimonials-->
-    <div class="testimonials bg-testimonials text-center">
-        <div class="divider divider--lg"></div>
+    </div><!-- .latest -->
+    <div class="explore">
         <div class="container">
-            <div class="columns1">
-                <div class="item">
-                    <img src="<?php echo getImageUrl('testimonials.html')?>" class="center-block" alt="" />
-                    <p class="text-Italic font16">“Vestibulum ultricies dolor sed convallis. Donec sollicitudin enim sit amet neque lacinia, suscipit nunc fringilla. Quinibus at eros eget rhoncus mattis neque justo”</p>
-                    <h4 class="font20 text-medium text-uppercase">By: Mr. Bryan Rodriguez</h4>
-                    <span class="text-Italic font14">CEO ANZ Studio</span>
-                </div>
-                <div class="item">
-                    <img src="<?php echo getImageUrl('testimonials.html')?>" class="center-block" alt="" />
-                    <p class="text-Italic font16">“Vestibulum ultricies dolor sed convallis. Donec sollicitudin enim sit amet neque lacinia, suscipit nunc fringilla. Quinibus at eros eget rhoncus mattis neque justo”</p>
-                    <h4 class="font20 text-medium text-uppercase">By: Mr. Bryan Rodriguez</h4>
-                    <span class="text-Italic font14">CEO ANZ Studio</span>
+            <h2 class="title wow fadeInUp" data-wow-delay=".1s">Categories </h2>
+            <div class="campaign-tabs filter-theme wow fadeInUp" data-wow-delay=".1s">
+                <a href="#" class="btn btn-sm btn-danger">See All</a>
+            </div>
+            <div class="description wow fadeInUp" data-wow-delay=".1s">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</div>
+
+            <div class="explore-content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="explore-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="explore-overlay" href="#">
+                                <img src="<?php echo getImageUrl(); ?>category/technology.png" alt="">
+                                <span>Technology</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="explore-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="explore-overlay" href="#">
+                                <img src="<?php echo getImageUrl(); ?>category/lifestyle.png" alt="">
+                                <span>Lifestyle</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="explore-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="explore-overlay" href="#">
+                                <img src="<?php echo getImageUrl(); ?>category/music.png" alt="">
+                                <span>Arts &amp; Music</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="explore-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="explore-overlay" href="#">
+                                <img src="<?php echo getImageUrl(); ?>category/publication.png" alt="">
+                                <span>Publications</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="explore-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="explore-overlay" href="#">
+                                <img src="<?php echo getImageUrl(); ?>category/games.png" alt="">
+                                <span>Games</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="explore-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="explore-overlay" href="#">
+                                <img src="<?php echo getImageUrl(); ?>category/events.png" alt="">
+                                <span>Events</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="explore-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="explore-overlay" href="#">
+                                <img src="<?php echo getImageUrl(); ?>category/foods.png" alt="">
+                                <span>Food</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="explore-item wow fadeInUp" data-wow-delay=".1s">
+                            <a class="explore-overlay" href="#">
+                                <img src="<?php echo getImageUrl(); ?>category/documentary.png" alt="">
+                                <span>Documentary</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="divider divider--lg"></div>
-    </div>
-    <!--/Testimonials-->
-    <!-- Blog -->
-    <div class="newsletter type2">
+    </div><!-- .explore -->
+    <div class="story">
         <div class="container">
-            <div class="subscribe">
-                <div class="newsletter__title">
-                    <h3>NEWSLETTER</h3>
-                </div>
-                <div class="newsletter__form">
-                    <form>
-                        <div class="newsletter__label">
-                            <p>Sign up with your email to get updates fresh updates about our events</p>
+            <h2 class="title wow fadeInUp" data-wow-delay=".1s">Advocate</h2>
+            <div class="campaign-tabs filter-theme wow fadeInUp" data-wow-delay=".1s">
+                <a href="#" class="btn btn-sm btn-danger" style="float:right">See All</a>
+            </div>
+            <div class="description wow fadeInUp" data-wow-delay=".1s">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</div>
+            <div class="story-content">
+                <div class="story-slider owl-carousel">
+                    <div class="story-item wow fadeInUp" data-wow-delay=".1s">
+                        <div class="story-thumb">
+                            <div class="thumb-image"><img src="<?php echo getImageUrl(); ?>advocate/adv1.png" alt=""></div>
                         </div>
-                        <div class="input-group">
-                            <input type="text" class="form-control font13" name="EMAIL" value="" placeholder="Your email...">
-                            <button type="submit" class="btn btn1 btn--md bg-theme color-white text-uppercase text-bold font-15 font-display">SUBSCRIBE</button>
+                        <div class="story-info">
+                            <a href="#" class="author-name">Samino</a>
+                            <a href="#" class="read-more">Know more</a>
                         </div>
-                    </form>
+                    </div>
+                    <div class="story-item wow fadeInUp" data-wow-delay=".1s">
+                        <div class="story-thumb">
+                            <div class="thumb-image"><img src="<?php echo getImageUrl(); ?>advocate/adv2.png" alt=""></div>
+                        </div>
+                        <div class="story-info">
+                            <a href="#" class="author-name">Andrew</a>
+                            <a href="#" class="read-more">Know more</a>
+                        </div>
+                    </div>
+                    <div class="story-item wow fadeInUp" data-wow-delay=".1s">
+                        <div class="story-thumb">
+                            <div class="thumb-image"><img src="<?php echo getImageUrl(); ?>advocate/adv3.png" alt=""></div>
+                        </div>
+                        <div class="story-info">
+                            <a href="#" class="author-name">Andy Yuri</a>
+                            <a href="#" class="read-more">Know more</a>
+                        </div>
+                    </div>
+                    <div class="story-item wow fadeInUp" data-wow-delay=".1s">
+                        <div class="story-thumb">
+                            <div class="thumb-image"><img src="<?php echo getImageUrl(); ?>advocate/adv4.png" alt=""></div>
+                        </div>
+                        <div class="story-info">
+                            <a href="#" class="author-name">Andy Yuri</a>
+                            <a href="#" class="read-more">Know more</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
-    </div>
-    <!--/ Blog -->
-    <div class="divider divider--lg"></div>
-</div>
+    </div><!-- .story -->
+
+    <div class="story">
+        <div class="container">
+            <h2 class="title wow fadeInUp" data-wow-delay=".1s">D2Reality Community</h2>
+            <div class="description wow fadeInUp" data-wow-delay=".1s">Engage like-minded people to share ideas and latest news</div>
+            <div class="latest-button"><a href="#" class="btn-primary">Visit our community page.</a></div>
+        </div>
+    </div><!-- .story -->
+
+
+</main><!-- .site-main -->

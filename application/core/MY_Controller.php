@@ -49,8 +49,8 @@ class Front_Controller extends MY_Controller {
         $this->data['page_name'] = $this->router->fetch_class();
         $this->data['page_name_sub'] = $this->router->fetch_method();
 
-        addCss(array('animation.css', 'bootstrap.css', 'flaticon.css', 'styles.css', 'font-awesome.min.css', 'jqueryui.min.css', 'owl.carousel.css'));
-        addJs(array('jquery-2.2.4.min.js', 'modernizr.custom.js', 'bootstrap.min.js', 'owl.carousel.min.js', 'jquery.meanmenu.js', 'jqueryui.com.js', 'jquery.syotimer.js'));
+        addCss(array('style.css', 'responsive.css', 'custom.css'));
+        addJs(array('jquery-3.2.1.js', 'popper.js', 'bootstrap.min.js', 'owl.carousel.min.js', 'jquery.countdown.min.js', 'wow.min.js', 'isotope.pkgd.min.js', 'jquery.bxslider.min.js', 'main.js'));
     }
 
 }
